@@ -1,0 +1,332 @@
+@font-face {
+    font-family: Baloo_pajja;
+    src: url('../../fonts/Baloo_Paaji_2/BalooPaaji2-Regular.ttf');
+}
+
+@font-face {
+    font-family: merriweather;
+    src: url('../../fonts/Merriweather/Merriweather-Black.ttf');
+}
+
+*{
+    margin:0;
+    padding:0;
+    font-family: Baloo_pajja;
+    line-height: 1.5em;
+}
+section{
+    width: 100%;
+}
+
+.banner{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper-banner{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.banner .img{
+    width: 100%;
+    z-index: 10;
+}
+
+.absolute-image{
+    width: 95%;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 0;
+}
+
+.black{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.section-profile{
+    width: 100%;
+    margin-top: 50px;
+    padding:20px;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper-profile{
+    width: 140vh;
+    padding:10px;
+    display: flex;
+    align-items: center;
+}
+
+.profile-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.red{
+    color:#EC5D56;
+    font-weight: bold;
+}
+
+.green{
+    color:#2e9976;
+    font-weight: bold;
+}
+
+.orange{
+    color:#F28C32;
+    font-weight: bold;
+}
+
+.profile-left h1{
+    font-family: merriweather;
+}
+
+.profile-left p{
+    line-height: 1.5em;
+}
+
+.profile-right{
+   width: 50%;
+   display: flex;
+   justify-content: center;
+}
+
+.wrapper-image-logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.border-right{
+    border-right :8px solid #2e9976 !important;
+    padding:20px;
+}
+
+.wrapper-tujuan{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:30px;
+}
+
+.wrapper-tujuan p{
+    text-align: right;
+    width: 100%;
+    margin:0;
+}
+
+.wrapper-tujuan div:first-child{
+    width: 80%;
+}
+
+.wrapper-information{
+    width: 125vh;
+    padding:10px;
+    display: flex;
+}
+
+.m-50{
+    margin-bottom: 100px;
+}
+
+.tujuan{
+    font-size: 1.5em;
+}
+
+.information-right{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+}
+
+.information-right h1{
+    font-family: merriweather;
+}
+
+.information-right h5{
+    margin:0;
+}
+
+.wrapper-visi{
+    margin-top:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+ul{
+    padding-left: 20px;
+}
+
+.wrapper-image-bot{
+    width: 80%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.enter{
+    transition: duration .2s;
+    cursor: pointer;
+}
+
+.enter:hover{
+    transform : scale(1.1);
+}
+
+.wrapper-image-bot .frame{
+    width: 100%;
+    z-index: 10;
+}
+
+.bot{
+    padding:10px;
+    width: 100%;
+    height: 100%;
+}
+
+.esensi{
+    padding: 0px 20px;
+    margin:0;
+}
+
+.esensi li{
+    padding: 8px 0px;
+}
+
+.pattern-wrapper{
+    position: relative;
+}
+
+.pattern-absolute{
+    position: absolute;
+    width: 7%;
+}
+
+.left{
+    top:40%;
+    left: 0;
+}
+
+.bottom{
+    bottom: 0;
+    right: 0;
+}
+
+.top{
+    top:0;
+    right: 0;
+}
+
+@media (max-width:768px){
+    .hide{
+        display: none;
+    }
+    
+    .col-full{
+        width: 100%;
+    }
+
+    .wrapper-profile{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .wrapper-information{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .wrapper-tujuan p{
+        text-align: left;
+    }
+
+    .m-mobile{
+        margin-top:50px;
+    }
+
+    .fz-big{
+        font-size: 3em !important;
+    }
+
+    .border-right{
+        border:none !important;
+        padding:0;
+    }
+
+    .information-right{
+        padding:0;
+    }
+}
+
+@media (max-width:578px){
+    .section-profile{
+        padding:10px;
+    }
+
+    .wrapper-banner{
+        width: 100%;
+    }
+
+    .wrapper-profile{
+        width: 100%;
+    }
+
+    .wrapper-tujuan img{
+        display: none;
+    }
+
+    .wrapper-tujuan div:first-child{
+        width: 100%;
+    }
+
+    .m-bot-none{
+        margin-bottom:10px;
+    }
+
+    .profile-left h1{
+        font-size: 2em;
+    }
+    
+    .profile-left p{
+        line-height: 1.5em;
+        font-size: 0.8em;
+    }
+
+    .wrapper-visi{
+        font-size: 0.8em;
+        line-height: 1.5em;
+    }
+    
+    .information-right h1{
+        font-size: 2em;
+    }
+
+    .m-0{
+        margin:none;
+    }
+
+    li{
+        font-size: 1em;
+    }
+}
+
+@media (max-width:350px){
+    .fz-big{
+        font-size: 2em !important;
+    }
+}

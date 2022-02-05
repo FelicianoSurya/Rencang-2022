@@ -1,0 +1,10 @@
+@font-face {
+    font-family: merriweather;
+    src: url('../../fonts/Merriweather/Merriweather-Black.ttf');
+}
+
+.text-style{
+    font-size: 3em;
+    font-family: merriweather;
+    color:#F18D34;
+}

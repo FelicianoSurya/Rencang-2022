@@ -1,0 +1,64 @@
+body{
+    background-color: #FFF3E1;
+}
+
+@media (min-width: 992px) {
+    .navbar {
+        height:86px;
+    }
+
+    .mobileOnly{
+        display: none;
+    }
+}
+
+@media (max-width: 991px){
+    .desktopOnly{
+        display: none;
+    }
+}
+
+.nav-link{
+    color: #5B5B5B;
+    font-weight: bold;
+}
+
+.colorDarkGray{
+    color: #5B5B5B;
+}
+
+@media (min-width: 992px) {
+    .dropdown-menu{
+        background-color: #FFF3E1;
+    }
+
+    .dropdown-item{
+        background-color: #FFF3E1;
+    }
+
+    .dropdown-item:hover{
+        background-color: #388177;
+    }
+}
+
+@media (max-width: 991px){
+    .dropdown-menu{
+        background-color: #F7DF6D;
+        border: 0;
+        text-align: center;
+    }
+
+    .dropdown-item{
+        background-color: #F7DF6D;
+    }
+
+    .dropdown-item:hover{
+        background-color: #F7DF6D;
+    }
+}
+
+.navbar-layer{
+    position: relative;
+    z-index: 1000;
+    background-color: #F7DF6D;
+}

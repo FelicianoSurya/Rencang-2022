@@ -1,0 +1,1061 @@
+@font-face {
+    font-family: Baloo_pajja;
+    src: url('../../fonts/Baloo_Paaji_2/BalooPaaji2-Medium.ttf');
+}
+
+@font-face {
+    font-family: merriweather;
+    src: url('../../fonts/Merriweather/Merriweather-Black.ttf');
+}
+
+@font-face {
+    font-family: Baloo_pajja-Regular;
+    src: url('../../fonts/Baloo_Paaji_2/BalooPaaji2-Regular.ttf');
+}
+
+.section{
+    width: 100%;
+}
+
+.section one{
+    width: 40%;
+    background-size: cover;
+    padding: 50px 0px 100px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #FFF0DE;
+}
+
+.headerPhoto{
+    position: absolute;
+    justify-self: center;
+    margin-top: -1.5%;
+}
+
+.headerArt{
+    padding: 0px 0px 0px 0px;
+    width: 100%;
+    max-width: 100%;
+    z-index: 1;
+    outline: none;
+    border: none;
+    margin-top: -1.5%;
+    background-image: url(../../images/Keakraban/Event.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imageHeader{
+    text-align: center;
+    position: relative;
+
+}
+
+.name{
+    font-size: 36pt;
+    font-weight: bold;
+    text-align: center;
+    font-family: merriweather;
+    color: #FFF0DE;
+    margin: 0%;
+}
+
+.judul{
+    font-size: 40pt;
+    font-weight: bold;
+    text-align: center;
+    font-family: merriweather;
+    color: #FFF0DE;
+    margin: 0%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
+}
+
+.image img{
+    width: 115%;
+    margin-left: -8%;
+}
+
+.information .name{
+    font-size: 1.5em;
+    font-family: merriweather;
+    margin-bottom: 0.5em;
+    width: 95%;
+    justify-content: center;
+    color: #388177;
+    text-align: left;
+    margin-left: 10%;
+}
+
+.information .desc {
+    font-size: 1.1em;
+    font-family: Baloo_pajja;
+    width: 95%;
+    text-align: justify;
+    line-height: 1.7em;
+    margin-left: 10%;
+}
+
+/* .headerKeakraban{
+    position: absolute;
+    justify-self: center;
+    margin-top: -1.5%;  
+} */
+
+.content-section-two{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin-top: 100px;
+    border-radius: 20px;
+    background-color: 	#cfeae1;
+    margin: 30px;
+    padding: 3%;
+    /* margin-left: 150px; */
+    box-shadow: 0px 6px 7px rgba(0, 0, 0, 0.35);
+}
+
+.headerMalam{
+    background-image: url(../../images/Keakraban/keakraban.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content-section-two .information{
+    width: 50%;
+    justify-content: center;
+}
+
+.content-section-three{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin-top: 100px;
+    border-radius: 20px;
+    background-color: #fff8db;
+    margin: 30px;
+    padding: 3%;
+    /* margin-left: 150px; */
+    box-shadow: 0px 6px 7px rgba(0, 0, 0, 0.35);
+}
+
+/* .headerRencang{
+    position: absolute;
+    justify-self: center;
+    margin-top: -1.5%;  
+} */
+
+.headerAnniv{
+    background-image: url(../../images/Keakraban/Rencang.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content-section-three .information{
+    width: 50%;
+    justify-content: center;
+}
+
+.content-section-four{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin-top: 100px;
+    border-radius: 20px;
+    background-color: 	#fef0e7;
+    margin: 30px;
+    padding: 3%;
+    /* margin-left: 150px; */
+    box-shadow: 0px 6px 7px rgba(0, 0, 0, 0.35);
+}
+
+
+/* .headerIcare{
+    position: absolute;
+    justify-self: center;
+    margin-top: -1.5%;  
+} */
+
+.headerCare{
+    background-image: url(../../images/Keakraban/icare.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content-section-four .information{
+    width: 50%;
+    justify-content: center;
+}
+
+.content-section-five{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin-top: 100px;
+    border-radius: 20px;
+    background-color: #e9f7fe;
+    margin: 30px;
+    padding: 3%;
+    /* margin-left: 150px; */
+    box-shadow: 0px 6px 7px rgba(0, 0, 0, 0.35);
+}
+
+/* .headerRencang{
+    position: absolute;
+    justify-self: center;
+    margin-top: -1.5%;  
+} */
+
+.headerCurhat{
+    background-image: url(../../images/Keakraban/Rencang.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content-section-five .information{
+    width: 50%;
+    justify-content: center;
+}
+
+.content-section-six{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin-top: 100px;
+    border-radius: 20px;
+    background-color: 	#fee9cc;
+    margin: 30px;
+    padding: 3%;
+    /* margin-left: 150px; */
+    box-shadow: 0px 6px 7px rgba(0, 0, 0, 0.35);
+}
+
+/* .headerRencang{
+    position: absolute;
+    justify-self: center;
+    margin-top: -1.5%;  
+} */
+
+.headerPiknik{
+    background-image: url(../../images/Keakraban/Rencang.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content-section-six .information{
+    width: 50%;
+    justify-content: center;
+}
+
+.gelombangkiri{
+    position: absolute;
+    left: 0%;
+    bottom: 0;
+}
+
+.kananbawah{
+    position: absolute;
+    bottom: 0;
+    right: 0%;
+    width: 20%;
+}
+
+.kananatas{
+    bottom: 35%;
+    position: absolute;
+    right: 0%;
+}
+
+@media (max-width:1280px){
+    .col-sm-10 {
+        -ms-flex: 0 0 83.333333%;
+        flex: 0 0 83.333333%;
+        max-width: 95.333%;
+    }
+
+    .judul {
+        font-size: 2.2em;
+    }
+
+    .image img {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .information .name {
+        width: 100%;
+        font-size: 1.2em;
+        margin-left: 0%;
+    }
+
+    .information .desc {
+        width: 100%;
+        font-size: 1em;
+        line-height: 1.8em;
+        margin-left: 0%;
+    }
+
+    .content-section-two {
+        width: 80%;
+    }
+
+    .content-section-two .information {
+        width: 55%;
+        margin-left: 2%;
+    }
+
+    .content-section-three {
+        width: 80%;
+    }
+
+    .content-section-three .information {
+        width: 55%;
+        margin-left: 2%;
+    }
+
+    .content-section-four {
+        width: 80%;
+    }
+
+    .content-section-four .information {
+        width: 55%;
+        margin-left: 2%;
+    }
+
+    .content-section-five {
+        width: 80%;
+    }
+
+    .content-section-five .information {
+        width: 55%;
+        margin-left: 2%;
+    }
+
+    .content-section-six {
+        width: 80%;
+    }
+
+    .content-section-six .information {
+        width: 55%;
+        margin-left: 2%;
+    }
+
+    .gelombangkiri {
+        position: absolute;
+        left: 0%;
+        bottom: 0;
+    }
+
+    .kananatas {
+        bottom: 35%;
+        position: absolute;
+        right: 0%;
+    }
+
+    .kananbawah {
+        position: absolute;
+        bottom: 0%;
+        right: 0%;
+        width: 20%;
+    }
+}
+
+@media (max-width:1170px){
+    .col-sm-10 {
+        -ms-flex: 0 0 83.333333%;
+        flex: 0 0 83.333333%;
+        max-width: 95.333%;
+    }
+
+    .judul {
+        font-size: 2em;
+    }
+
+    .image img {
+        width: 100%;
+        margin-left: -5%;
+    }
+
+    .information .name {
+        width: 100%;
+        font-size: 1.2em;
+        margin-left: 0%;
+    }
+
+    .information .desc {
+        width: 100%;
+        font-size: 1em;
+        line-height: 1.8em;
+        margin-left: 0%;
+    }
+
+    .content-section-two {
+        width: 80%;
+    }
+
+    .content-section-two .information {
+        width: 50%;
+        margin-left: 0%;
+    }
+
+    .content-section-three {
+        width: 80%;
+    }
+
+    .content-section-three .information {
+        width: 50%;
+        margin-left: 0%;
+    }
+
+    .content-section-four {
+        width: 80%;
+    }
+
+    .content-section-four .information {
+        width: 50%;
+        margin-left: 0%;
+    }
+
+    .content-section-five {
+        width: 80%;
+    }
+
+    .content-section-five .information {
+        width: 50%;
+        margin-left: 0%;
+    }
+
+    .content-section-six {
+        width: 80%;
+    }
+
+    .content-section-six .information {
+        width: 50%;
+        margin-left: 0%;
+    }
+
+    .gelombangkiri {
+        position: absolute;
+        left: 0%;
+        bottom: 0;
+    }
+
+    .kananatas {
+        bottom: 35%;
+        position: absolute;
+        right: 0%;
+    }
+
+    .kananbawah {
+        position: absolute;
+        bottom: 0%;
+        right: 0%;
+        width: 20%;
+    }
+}
+
+@media (max-width: 1010px) {
+    .headerPhoto {
+        width: 100%;
+    }
+
+    .imageHeader {
+        width: 100%;
+    }
+
+    .headerArt {
+        width: 100%;
+    }
+    
+    .judul {
+        font-size: 2.5em;
+    }
+
+    .image img {
+        width: 100%;
+        margin-left: -4%;
+    }
+
+    .information .name {
+        width: 100%;
+        margin-left: 0%;
+        padding-top: 3%;
+        font-size: 1.2em;
+        margin-bottom: 3%;
+    }
+    
+    .information .desc {
+        width: 100%;
+        margin-left: 0%;
+        font-size: 0.9em;
+        line-height: 1.8em;
+    }
+
+    .headerMalam {
+        margin-right: 0%;
+    }
+
+    .headerAnniv {
+        margin-right: 0%;
+    }
+    
+    .headerCare {
+        margin-right: 0%;
+    }
+
+    .headerCurhat {
+        margin-right: 0%;
+    }
+
+    .headerPiknik {
+        margin-right: 0%;
+    }
+
+    .content-section-two {
+        width: 80%;
+        padding: 2%;
+    }
+
+    .content-section-two .information {
+        width: 40%;
+        justify-content: center;
+        margin-left: 0%;
+    }
+
+    .content-section-three {
+        width: 80%;
+        padding: 2%;
+    }
+
+    .content-section-three .information{
+        width: 40%;
+        justify-content: center;
+        margin-left: 0%;
+    }
+
+    .content-section-four {
+        width: 80%;
+        padding: 2%;
+    }
+
+    .content-section-four .information{
+        width: 40%;
+        justify-content: center;
+        margin-left: 0%;
+    }
+
+    .content-section-five {
+        width: 80%;
+        padding: 2%;
+    }
+
+    .content-section-five .information{
+        width: 40%;
+        justify-content: center;
+        margin-left: 0%;
+    }
+
+    .content-section-six {
+        width: 80%;
+        padding: 2%;
+    }
+
+    .content-section-six .information{
+        width: 40%;
+        justify-content: center;
+        margin-left: 0%;
+    }
+
+    .gelombangkiri {
+        position: absolute;
+        left: 0%;
+        bottom:0;
+    }
+
+    .kananatas {
+        bottom: 35%;
+        position: absolute;
+        right: 0%;
+    }
+
+    .kananbawah {
+        position: absolute;
+        bottom: 0%;
+        right: 0%;
+        width: 19%;
+    }
+}
+
+@media (max-width: 826px) {
+    .imageHeader {
+        width: 95%;
+    }
+
+    .headerArt {
+        width: 110%;
+    }
+    
+    .judul {
+        font-size: 1.5em;
+    }
+
+    .image img {
+        width: 100%;
+        margin-left: 0%;
+        margin-top: 2.5%;
+    }
+
+    .information .name {
+        width: 100%;
+        margin-left: 0%;
+        padding-top: 3%;
+        text-align: center;
+        font-size: 1.5em;
+        margin-top: 3%;
+        margin-bottom: 5%;
+    }
+    
+    .information .desc {
+        width: 100%;
+        margin-left: 0%;
+        line-height: 1.7em;
+    }
+
+    .content-section-two .information{
+        width: 90%;
+    }
+    
+    .content-section-three .information{
+        width: 90%;
+    }
+    
+    .content-section-four .information{
+        width: 90%;
+    }
+    
+    .content-section-five .information{
+        width: 90%;
+    }
+
+    .content-section-six .information{
+        width: 90%;
+    }
+
+    .gelombangkiri {
+        position: absolute;
+        left: 0%;
+        bottom: 0;
+    }
+
+    .kananatas {
+        bottom: 35%;
+        position: absolute;
+        right: 0%;
+    }
+
+    .kananbawah {
+        position: absolute;
+        bottom:0%;
+        right: 0%;
+        width: 30%;
+    }
+}
+
+@media (max-width: 576px) {
+    .col-sm-10 {
+        -ms-flex: 0 0 83.333333%;
+        flex: 0 0 83.333333%;
+        max-width: 95.333%;
+    }
+
+    .imageHeader {
+        width: 95%;
+    }
+
+    .headerArt {
+        width: 110%;
+    }
+    
+    .judul {
+        font-size: 1.5em;
+    }
+
+    .image img {
+        width: 100%;
+        margin-left: 0%
+    }
+
+    .information .name {
+        font-size: 1.3em;
+        margin-bottom: 3%;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        margin-left: 0%;
+        margin-top: 3%;
+    }
+    
+    .information .desc {
+        width: 100%;
+        margin-left: 0%;
+        font-size: 1em;
+        line-height: 2em;
+        font-family: Baloo_pajja-Regular;
+        text-align: center;
+    }
+
+    .headerMalam {
+        margin-right: 0%;
+        width: 100%;
+    }
+    
+    .headerAnniv {
+        margin-right: 0%;
+        width: 100%;
+    }
+    
+    .headerCare {
+        margin-right: 0%;
+        width: 100%;
+    }
+    
+    .headerCurhat {
+        margin-right: 0%;
+        width: 100%;
+    }
+    
+    .headerPiknik {
+        margin-right: 0%;
+        width: 100%;
+    }
+
+    .content-section-two {
+        width: 80%;
+    }
+    
+    .content-section-two .information {
+        width: 95%;
+        justify-content: center;
+    }
+
+    .content-section-three {
+        width: 80%;
+    }
+    
+    .content-section-three .information {
+        width: 95%;
+        justify-content: center;
+    }
+
+    .content-section-four {
+        width: 80%;
+    }
+    
+    .content-section-four .information {
+        width: 95%;
+        justify-content: center;
+    }
+
+    .content-section-five {
+        width: 80%;
+    }
+    
+    .content-section-five .information {
+        width: 95%;
+        justify-content: center;
+    }
+
+    .content-section-six {
+        width: 80%;
+    }
+
+    .content-section-six .information {
+        width: 95%;
+        justify-content: center;
+    }
+
+    .gelombangkiri {
+        position: absolute;
+        left: 0%;
+        bottom: 0;
+    }
+
+    .kananatas {
+        bottom: 35%;
+        position: absolute;
+        right: 0%;
+    }
+
+    .kananbawah {
+        position: absolute;
+        bottom: 0%;
+        right: 0%;
+        width: 40%;
+    }
+
+    .gelombangkiri {
+        position: absolute;
+        left: 0%;
+        bottom: 0;
+    }
+
+    .kananatas {
+        bottom: 35%;
+        position: absolute;
+        right: 0%;
+    }
+
+    .kananbawah {
+        position: absolute;
+        bottom: 0%;
+        right: 0%;
+        width: 40%;
+    }
+}
+
+@media (max-width: 420px) {
+    .headerPhoto {
+        width: 95%;
+    }
+
+    .imageHeader {
+        width: 95%;
+    }
+
+    .headerArt {
+        width: 100%;
+    }
+    
+    .judul {
+        font-size: 1.2em;
+    }
+
+    .image img {
+        width: 100%;
+        margin-left: 0%
+    }
+
+    .information .name {
+        font-size: 1.3em;
+        margin-bottom: 3%;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        margin-left: 0%;
+        margin-top: 3%;
+    }
+    
+    .information .desc {
+        width: 100%;
+        margin-left: 0%;
+        font-size: 1em;
+        line-height: 2em;
+        font-family: Baloo_pajja-Regular;
+        text-align: center;
+    }
+
+    .headerMalam {
+        margin-right: 0%;
+        width: 100%;
+    }
+    
+    .headerAnniv {
+        margin-right: 0%;
+        width: 100%;
+    }
+    
+    .headerCare {
+        margin-right: 0%;
+        width: 100%;
+    }
+    
+    .headerCurhat {
+        margin-right: 0%;
+        width: 100%;
+    }
+    
+    .headerPiknik {
+        margin-right: 0%;
+        width: 100%;
+    }
+
+    .content-section-two {
+        width: 80%;
+    }
+    
+    .content-section-two .information {
+        width: 80%;
+        justify-content: center;
+        margin-left: 0%;
+    }
+
+    .content-section-three {
+        width: 80%;
+    }
+    
+    .content-section-three .information {
+        width: 80%;
+        justify-content: center;
+        margin-left: 0%;
+    }
+
+    .content-section-four {
+        width: 80%;
+    }
+    
+    .content-section-four .information {
+        width: 80%;
+        justify-content: center;
+        margin-left: 0%;
+    }
+
+    .content-section-five {
+        width: 80%;
+    }
+    
+    .content-section-five .information {
+        width: 80%;
+        justify-content: center;
+        margin-left: 0%;
+    }
+
+    .content-section-six {
+        width: 80%;
+    }
+
+    .content-section-six .information {
+        width: 80%;
+        justify-content: center;
+        margin-left: 0%;
+    }
+
+    .gelombangkiri {
+        position: absolute;
+        left: 0%;
+        bottom: 0;
+    }
+
+    .kananatas {
+        bottom: 35%;
+        position: absolute;
+        right: 0%;
+    }
+
+    .kananbawah {
+        position: absolute;
+        bottom: 0%;
+        right: 0%;
+        width: 40%;
+    }
+}
+
+@media (max-width: 375px) {
+    .judul {
+        font-size: 1.1em;
+    }
+
+    .information .name {
+        font-size: 1.1em;
+    }
+
+    .information .desc {
+        width: 100%;
+        margin-left: 0%;
+        font-size: 0.9em;
+        line-height: 1.8em;
+        text-align: center;
+    }
+
+    .content-section-two {
+        width: 85%;
+    }
+
+    .content-section-two .information {
+        width: 85%;
+        margin-left: 0%;
+    }
+
+    .content-section-three {
+        width: 85%;
+    }
+
+    .content-section-three .information {
+        width: 85%;
+        margin-left: 0%;
+    }
+
+    .content-section-four {
+        width: 85%;
+    }
+
+    .content-section-four .information {
+        width: 85%;
+        margin-left: 0%;
+    }
+
+    .content-section-five {
+        width: 85%;
+    }
+
+    .content-section-five .information {
+        width: 85%;
+        margin-left: 0%;
+    }
+
+    .content-section-six {
+        width: 85%;
+    }
+
+    .content-section-six .information {
+        width: 85%;
+        margin-left: 0%;
+    }
+
+    .gelombangkiri {
+        position: absolute;
+        left: 0%;
+        bottom:0;
+    }
+
+    .kananatas {
+        bottom: 35%;
+        position: absolute;
+        right: 0%;
+    }
+
+    .kananbawah {
+        position: absolute;
+        bottom: 0%;
+        right: 0%;
+        width: 40%;
+    }
+}
+
+@media (max-width: 320px) {
+    .judul {
+        font-size: 1em;
+    }
+
+    .gelombangkiri {
+        position: absolute;
+        left: 0%;
+        bottom: 0;
+    }
+    
+    .kananbawah {
+        position: absolute;
+        bottom: 0%;
+        right: 0%;
+    }
+    
+    .kananatas {
+        bottom: 35%;
+        position: absolute;
+        right: 0%;
+    }
+}

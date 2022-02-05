@@ -1,0 +1,46 @@
+.icon-media{
+    width: 100%;
+    cursor: pointer;
+}
+
+.footer{
+    background-color: #388177;
+    color: #FFF3E1;
+}
+
+.footer-link{
+    color: #FFF3E1;
+}
+
+.footer-link:hover{
+    color: #FFF3E1;
+}
+
+@media(max-width:992px){
+    .icon-media{
+        width: 40px;
+    }
+    .mob-foot{
+        width: 18%;
+    }
+}
+
+@media (max-width :578px){
+    .hide {
+        display: none;
+    }
+
+    .full{
+        margin:0 !important;
+    }
+
+    .footer{
+        padding:30px 20px !important;
+    }
+
+    .mob-foot{
+        padding:0px 5px !important;
+        display: flex;
+        justify-content: center;
+    }
+}

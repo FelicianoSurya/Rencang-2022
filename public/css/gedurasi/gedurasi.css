@@ -1,0 +1,305 @@
+@font-face {
+    font-family: Baloo_pajja;
+    src: url('../../fonts/Baloo_Paaji_2/BalooPaaji2-Bold.ttf');
+}
+
+@font-face {
+    font-family: merriweather;
+    src: url('../../fonts/Merriweather/Merriweather-Black.ttf');
+}
+
+.content{
+    width: 100%;
+    background-image: url('../../images//Gedurasi//background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section{
+    width: 100%;
+}
+
+.section-one{
+    width: 100%;
+    background-size:cover;
+    padding:50px 0px 100px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:white;
+}
+
+.section-one img{
+    width: 40%;
+}
+
+.section-one .name{
+    font-size: 5em;
+    font-weight: bold;
+    text-align: center;
+    margin:0;
+    font-family: merriweather;
+    letter-spacing: 0.1em;
+}
+
+.section-one .tagline{
+    font-size: 2em;
+    font-family: Baloo_pajja;
+    text-align: center;
+}
+
+.section-two{
+    width: 100%;
+    background-image: url('../../images/Gedurasi/background tengah.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 100px 450px 100px;
+    color:white;
+}
+
+.program{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size:50px;
+    font-weight: bold;
+    font-family: merriweather;
+}
+
+.content-section-two{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.content-section-two .image{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img{
+    width: 90%;
+}
+
+.content-section-two .information{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.information .tujuan{
+    font-size: 60px;
+    margin-bottom:40px ;
+    width: 100%;
+    font-family: merriweather;
+}
+
+.information .desc{
+    font-size: 19px;
+    font-weight: bold;
+    width: 100%;
+    text-align: justify;
+}
+
+.content-three{
+    width: 100%;
+    padding: 50px 100px 250px 100px;
+    color:white;
+}
+
+.content-four{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding: 0px 100px 100px 100px;
+    color:white;
+}
+
+.dokumentasi{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 70px;
+    font-family: merriweather;
+}
+
+.gallery{
+    width: 100%;
+    background-color: #ffd249;
+    border-radius: 20px;
+    padding:20px;
+    box-shadow: 0px 0px 100px 50px #b9b46f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery img{
+    width: 33%;
+}
+
+.row{
+    width: 100%;
+}
+
+.gallery img{
+    padding:20px;
+    border-radius: 50px;
+}
+
+@media (max-width : 992px){
+    .section-one img{
+        width:50%;
+    }
+
+    .section-one .name{
+        font-size: 4em;
+    }
+
+    .program{
+        font-size: 30px;
+    }
+
+    .content-section-two .image{
+        width: 70%;
+        margin-bottom: 40px;
+    }
+
+    .content-section-two .information{
+        width: 100%;
+        text-align: center;
+    }
+
+    .information .tujuan{
+        width: 100%;
+    }
+
+    .information .desc{
+        width: 100%;
+    }
+
+    .content-section-two{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (min-width:769px){
+    .carousel{
+        display: none;
+    }
+}
+
+@media (max-width: 768px){
+    .section-one img{
+        width:80%;
+    }
+
+    .content-four{
+        padding: 0px 50px 100px 50px;
+        color:white;
+    }
+
+    .content-section-two .image{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .gallery{
+        display: none;
+    }
+
+    .gallery img{
+        width: 50%;
+    }
+
+    .carousel{
+        padding:20px;
+        background-color: #ffd249;
+        border-radius: 10px;
+        box-shadow: 0px 0px 40px 10px #b9b46f;
+    }
+
+    .carousel-inner img{
+        border-radius: 10px;
+    }
+}
+
+@media (max-width: 578px){
+    .section-one{
+        padding:0px 15px;
+    }
+
+    .section-one img{
+        width: 80%;
+    }
+
+    .section-one .name{
+        font-size: 3em;
+    }
+
+    .content-section-two .image{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .content-section-two .image img{
+        width: 100%;
+    }
+
+    .section-two{
+        padding:300px 40px 300px 40px;
+    }
+
+    .content-three{
+        padding:0px 40px 100px 40px;
+    }
+
+    .content-four{
+        padding:40px;
+        padding-bottom: 100px;
+    }
+
+    .information .tujuan{
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+
+    .information .desc{
+        font-size: 15px;
+    }
+    
+    .section-one img{
+        width:90%;
+    }
+
+    .dokumentasi{
+        font-size: 2em;
+        margin-bottom: 30px;
+    }
+
+    .program{
+        font-size: 1.2em;
+        align-items: center;
+    }
+
+    .program-unggulan{
+        width: 50%;
+        font-size: 25px;
+    }
+}
+
+@media (max-width : 475px){
+    .section-two{
+        padding:300px 10px 300px 10px;
+    }
+}

@@ -1,0 +1,456 @@
+@font-face {
+    font-family: Baloo_pajja;
+    src: url('../../fonts/Baloo_Paaji_2/BalooPaaji2-Bold.ttf');
+}
+
+@font-face {
+    font-family: made_tommy;
+    src: url('../../fonts/made_tommy/MADE TOMMY Medium_PERSONAL USE.otf');
+}
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: Baloo_pajja;
+}
+
+.content{
+    width: 100%;
+    background-image: url('../../images/sentera/background_utama_fix_FINAL.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.section{
+    width: 100%;
+}
+
+.section-one{
+    width: 100%;
+    background-size:cover;
+    padding:150px 0px 150px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:white;
+}
+
+.section-one img{
+    width: 80%;
+}
+
+.section-one .name{
+    font-size: 5em;
+    font-weight: bold;
+    text-align: center;
+    margin:0;
+    font-family: made_tommy;
+}
+
+.section-one .tagline{
+    font-size: 2em;
+    font-family: Baloo_pajja;
+}
+
+.section-two{
+    width: 100%;
+    /* background-image: url('../../images/Gedurasi/background tengah.png'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+    padding-right: 100px;
+    padding-left: 100px;
+    color:rgb(255, 222, 174);
+}
+
+.program{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size:50px;
+    font-weight: bold;
+    font-family: made_tommy;
+}
+
+.bagian1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+    /* border: solid 5px black; */
+    border-radius: 80px;
+    /* background-color: #ffdeae; */
+    padding-bottom: 140px;
+    padding-right: 80px;
+    background-image: url('../../images/sentera/bg_content_2.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 80px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.bagian1 h1{
+    font-weight: bold;
+    font-size: 45px;
+    background-color: rgba(255,255,255,0.64);
+    width: fit-content;
+    border-radius: 50px;
+    padding:0px 20px;
+    margin:0;
+}
+
+.bagian2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+    /* border: solid 5px black; */
+    border-radius: 80px;
+    /* background-color: #ffdeae; */
+    padding-bottom: 200px;
+    padding-right: 80px;
+    background-image: url('../../images/sentera/bg_content_3.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 80px;
+    margin-left: 20px;
+}
+
+
+.content-section-two .image{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-section-two .title{
+    padding:10px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    color: #ff6b75;
+    font-weight: bold;
+}
+
+.image img{
+    width: 90%;
+}
+
+.content-section-two .information{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.information .tujuan{
+    font-size: 50px;
+    width: 90%;
+    font-family: made_tommy;
+    color: #ff6b75;
+}
+
+.information .desc{
+    font-size: 19px;
+    font-weight: bold;
+    width: 90%;
+    text-align: justify;
+    color: #ff6b75;
+    padding-bottom:10px;
+}
+
+.content-three{
+    width: 100%;
+    padding: 50px 100px 250px 100px;
+    color:white;
+}
+
+.content-four{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding: 0px 100px 100px 100px;
+    color:white;
+}
+
+.dokumentasi{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 70px;
+    font-family: made_tommy;
+    color: #5181a1;
+}
+
+.gallery{
+    width: 100%;
+    background-color: #7e79a4;
+    border-radius: 100px;
+    padding:20px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery img{
+    width: 33%;
+}
+
+.row{
+    width: 100%;
+}
+
+.gallery img{
+    padding:20px;
+    border-radius: 50px;
+}
+
+@media (max-width : 992px){
+    .content{
+        width: 100%;
+        background-image: url('../../images//sentera//background_utama_fix.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .bagian1{
+        background-image: url('../../images//sentera//bg_content_2_mobile.png');
+        background-size: 100% 100%;
+        padding-left: 100px;
+    }
+
+    .bagian1 h1{
+        background-color: rgba(0, 0, 0, 0);
+        font-size: 30px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+
+    .bagian2{
+        background-image: url('../../images//sentera//bg_content_3_mobile.png');
+        background-size: 100% 100%;
+        padding-left: 100px;
+    }
+
+    .section-one img{
+        width:80%;
+    }
+
+    .section-one .name{
+        font-size: 4em;
+    }
+
+    .program{
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .content-section-two .image{
+        width: 70%;
+        margin-bottom: 40px;
+    }
+
+    .content-section-two .information{
+        width: 100%;
+        text-align: center;
+    }
+
+    .information .tujuan{
+        width: 100%;
+    }
+
+    .information .desc{
+        width: 100%;
+        text-align: justify;
+    }
+
+    .content-section-two{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image img{
+        width: 1000%;
+    }
+}
+
+@media (min-width:769px){
+    .carousel{
+        display: none;
+    }
+}
+
+@media (max-width: 768px){
+    .bagian1 h1{
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .section-one img{
+        width:100%;
+    }
+
+    .information .tujuan{
+        font-size: 30px;
+    }
+
+    .section-two{
+        padding:30px;
+    }
+    
+    .bagian1{
+        margin-left:0;
+    }
+
+    .bagian2{
+        margin-left: 0;
+    }
+
+    .content-three{
+        padding:30px;
+    }
+
+    .program{
+        font-size: 30px;
+    }
+
+    .content-four{
+        padding: 0px 30px 100px 50px;
+        color:white;
+    }
+
+    .content-section-two .image{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .gallery{
+        display: none;
+    }
+
+    .gallery img{
+        width: 50%;
+    }
+
+    .carousel{
+        padding:20px;
+        background-color: #ffd249;
+        border-radius: 10px;
+        box-shadow: 0px 0px 40px 10px #b9b46f;
+    }
+
+    .carousel-inner img{
+        border-radius: 10px;
+    }
+}
+
+@media (max-width: 578px){
+    .section-one{
+        padding:100px 0px 120px 0px;
+    }
+
+    .section-one img{
+        width: 100%;
+    }
+
+    .bagian1{
+        background-image: none;
+        background-color: rgb(248,224,186);
+        margin-bottom: 100px;
+        padding:40px 0px;
+        margin-left:0;
+        max-width: 100%;
+    }
+
+    .bagian2{
+        padding: 30px 0px;
+        background-image: none;
+        background-color: rgb(248,224,186);
+        margin: 0px;
+    }
+
+    .section-one .name{
+        font-size: 3em;
+    }
+
+    .bagian1 h1 {
+        font-size: 18px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        background-color: rgba(255,255,255,0.64);
+        border-radius: 50px;
+    }
+
+    .content-section-two .image{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .section-two{
+        padding:0px;
+        width: 100%;
+    }
+
+    .content-three{
+        padding: 0px 20px 100px 20px;
+    }
+
+    .content-four{
+        padding:15px;
+        padding-bottom: 100px;
+    }
+
+    .information .tujuan{
+        font-size: 30px;
+    }
+    
+    .section-one img{
+        width:100%;
+    }
+
+    .dokumentasi{
+        font-size: 2em;
+        margin-bottom: 30px;
+    }
+
+    .program{
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .bagian1 .image img{
+        width: 50%;
+    }
+
+    .bagian2 .image img{
+        width: 80%;
+    }
+
+    .information .desc {
+        font-size: 15px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .section-two{
+        padding: 0px 20px 0px 20px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width : 400px){
+    .program p{
+        font-size: 15px;
+    }
+}

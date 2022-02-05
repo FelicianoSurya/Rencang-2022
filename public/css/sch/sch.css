@@ -1,0 +1,366 @@
+@font-face {
+    font-family: Baloo_pajja;
+    src: url("../../fonts/Baloo_Paaji_2/BalooPaaji2-Bold.ttf");
+}
+
+@font-face {
+    font-family: merriweather;
+    src: url("../../fonts/Merriweather/Merriweather-Black.ttf");
+}
+
+@font-face {
+    font-family: sketcha;
+    src: url("../../fonts/Sketcha/Sketcha.ttf");
+}
+
+.section {
+    background-image: url("../../images/SCH/background_desktop2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 4%;
+    /* background-color: rgb(231, 205, 175); */
+    width: 100%;
+    padding: 60px 100px;
+    color: rgb(136, 84, 34);
+}
+
+.burung_kiri {
+    position: absolute;
+    max-width: 10%;
+    left: 5%;
+    bottom: 30%;
+    z-index: 2;
+    /* transform: translateY(300%); */
+}
+
+.burung_kanan {
+    position: absolute;
+    max-width: 8%;
+    top: 25%;
+    right: 15%;
+    z-index: 2;
+    /* transform: translateX(1000%); */
+}
+
+.blood_kanan {
+    position: absolute;
+    max-width: 30%;
+    z-index: 3;
+    right: 4%;
+    bottom: -30%;
+    /* transform: translate(30%, 270%); */
+}
+
+.blood_kiri {
+    position: absolute;
+    max-width: 100%;
+    z-index: 2;
+    z-index: 2;
+    left: 9%;
+    top: -48%;
+    /* transform: translate(0%, 880%); */
+}
+
+.section-1 {
+    padding: 50px 30px 200px 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section img {
+    width: 45%;
+}
+
+.name {
+    font-size: 4.8em;
+    margin-top: 0.2em;
+    font-family: sketcha;
+    text-align: center;
+}
+
+.tagline {
+    font-size: 1.2em;
+    margin-top: 0.3em;
+    font-family: baloo_pajja;
+}
+
+.program {
+    font-size: 3.4em;
+    font-family: merriweather;
+    margin-bottom: 3em;
+}
+
+.section-2 {
+    width: 100%;
+    padding-bottom: 5%;
+    /* margin-bottom: 250px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.konten-1 {
+    margin-bottom: 200px;
+}
+
+.konten-2 {
+    margin-bottom: 450px;
+}
+
+.section-2 .image {
+    width: 50%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-2 .image img {
+    width: 80%;
+}
+
+.section-2 .information {
+    width: 50%;
+    padding: 10px;
+}
+
+.information .tujuan {
+    font-family: merriweather;
+    letter-spacing: 0.05em;
+    font-size: 50px;
+    margin-bottom: 20px;
+    width: 90%;
+}
+
+.information .desc {
+    font-size: 19px;
+    width: 80%;
+    text-align: justify;
+}
+
+.img {
+    width: 100%;
+}
+
+.content-four {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding: 0px 100px 100px 100px;
+    color: white;
+}
+
+.dokumentasi {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 70px;
+    font-family: merriweather;
+}
+
+.gallery {
+    width: 100%;
+    background-color: yellow;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px 0px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.gallery img {
+    width: 20%;
+    border-radius: 10px;
+    margin-right: 6.5%;
+}
+
+.gallery .fotoatas img {
+    margin-bottom: 3%;
+}
+
+.fotokanan {
+    margin-right: 0px;
+}
+
+.row {
+    width: 100%;
+}
+
+@media (max-width: 992px) {
+    .section-1 img {
+        width: 70%;
+    }
+
+    .name {
+        font-size: 3.2em;
+        text-align: center;
+    }
+
+    .program {
+        flex-direction: column;
+        text-align: center;
+        font-size: 2.5em;
+    }
+
+    .konten-1 {
+        margin-bottom: 80px;
+    }
+
+    .section-2 .image {
+        width: 70%;
+        margin-bottom: 40px;
+    }
+
+    .section-2 .information {
+        width: 100%;
+        text-align: center;
+    }
+
+    .information .tujuan {
+        width: 100%;
+    }
+
+    .information .desc {
+        width: 100%;
+    }
+
+    .section-2 {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (min-width: 769px) {
+    .carousel {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .section-1 img {
+        width: 80%;
+    }
+
+    .burung_kiri {
+        display: none;
+    }
+
+    .burung_kanan {
+        display: none;
+    }
+
+    .blood_kanan{
+        display:none;
+    }
+
+    .blood_kiri{
+        display:none;
+    }
+
+    .content-four {
+        padding: 0px 50px 100px 50px;
+        color: white;
+    }
+
+    .section-2 .image {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .carousel-item img {
+        border: 20px solid rgb(255, 209, 0);
+    }
+
+    .gallery {
+        display: none;
+    }
+
+    .gallery img {
+        width: 50%;
+    }
+
+    .carousel-inner img {
+        border-radius: 25px;
+    }
+}
+
+@media (max-width: 578px) {
+    .section {
+        padding: 60px 20px;
+        /* background-image: url('../../images/SCH/background_mobile.png'); */
+        background-color: rgb(231, 205, 175);
+        background-size: 100% 100%;
+    }
+
+    .section-1 {
+        padding: 0px 15px;
+        padding-bottom: 30px;
+    }
+
+    .section-1 img {
+        width: 70%;
+    }
+
+    .name {
+        font-size: 2.3em;
+    }
+
+    .tagline {
+        font-size: 1em;
+    }
+
+    .program {
+        margin-bottom: 20px;
+        font-size: 1.5em;
+        text-align: left;
+    }
+
+    .section-2 {
+        margin-bottom: 0%;
+        padding-bottom: 0;
+    }
+
+    .information .desc {
+        font-size: 15px;
+    }
+
+    .section-2 .image {
+        margin: 5px;
+        width: 50%;
+    }
+
+    .section-2 .image .img {
+        width: 100%;
+    }
+
+    .content-three {
+        padding: 0px 20px 100px 20px;
+    }
+
+    .content-four {
+        padding: 15px;
+        padding-bottom: 100px;
+        transform: translateY(16%);
+    }
+
+    .information .tujuan {
+        font-size: 2em;
+        letter-spacing: 0;
+    }
+
+    .section-1 img {
+        width: 100%;
+    }
+
+    .dokumentasi {
+        font-size: 2em;
+        margin-bottom: 30px;
+    }
+}
