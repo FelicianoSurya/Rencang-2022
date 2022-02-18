@@ -52,7 +52,7 @@
                             <p>SECONDS</p>
                         </div>
                     </div>
-                    <p class="pendaftaran-topic">OPEN REGISTRATION</p>
+                    <p class="pendaftaran-topic">COMING SOON</p>
                     <!-- <p class="pendaftaran-topic">Webinar dan Campaign</p> -->
                     <p class="desc">Hai Cangs, saat ini Rencang sedang membuka pendaftaran untuk webinar dan campaign Caritas loh!<br><br>
                         Caritas adalah singkatan dari Cahaya Solidaritas. Dengan adanya Caritas kami berharap seseorang dapat menjadi seorang senior 
