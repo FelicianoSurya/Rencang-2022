@@ -34,7 +34,7 @@
                 </div>
                 <div class="event-information">
                     <p>C A R I T A S</p>
-                    <!-- <div class="time">
+                    <div class="time">
                         <div class="detail">
                             <p id="day"></p>
                             <p>DAYS</p>
@@ -51,8 +51,9 @@
                             <p id="second"></p>
                             <p>SECONDS</p>
                         </div>
-                    </div> -->
-                    <p class="pendaftaran-topic">Webinar dan Campaign</p>
+                    </div>
+                    <p class="pendaftaran-topic">OPEN REGISTRATION</p>
+                    <!-- <p class="pendaftaran-topic">Webinar dan Campaign</p> -->
                     <p class="desc">Hai Cangs, saat ini Rencang sedang membuka pendaftaran untuk webinar dan campaign Caritas loh!<br><br>
                         Caritas adalah singkatan dari Cahaya Solidaritas. Dengan adanya Caritas kami berharap seseorang dapat menjadi seorang senior 
                         yang bertanggung jawab dan peduli terhadap seniornya. Adapun rangkaian CARITAS terdiri dari webinar yang akan dilaksanakan 
@@ -63,7 +64,7 @@
                         <b>- Light The Way for Tomorrow -</b>
                     </p>
                     <div class="button">
-					<a href="https://bit.ly/PendaftaranSeminarCaritas" target="_blank"><button id="register-btn">Daftar</button></a>
+					<a href="https://bit.ly/PendaftaranSeminarCaritas" target="_blank"><button class="btn-secondary" id="register-btn" type="button" disabled>Coming Soon</button></a>
                     </div>
                 </div>
                 <div>
