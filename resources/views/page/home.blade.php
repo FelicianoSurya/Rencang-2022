@@ -29,12 +29,12 @@
             <div class="event">
                 <div class="logo">
                     <div class="image">
-                        <img class="logoPutih" src="{{ asset('images/Homepage/LogoRencangNight.png') }}" alt="logo">
+                        <img class="logoPutih" src="{{ asset('images/caritas/Logo.png') }}" alt="logo">
                     </div>
                 </div>
                 <div class="event-information">
-                    <p>SOCIAL WORK</p>
-                    <div class="time">
+                    <p>C A R I T A S</p>
+                    <!-- <div class="time">
                         <div class="detail">
                             <p id="day"></p>
                             <p>DAYS</p>
@@ -51,17 +51,20 @@
                             <p id="second"></p>
                             <p>SECONDS</p>
                         </div>
-                    </div>
-                    <p class="pendaftaran-topic">Social Work Calon Anggota Gen XV</p>
-                    <p class="desc">Hai Cangs! <br> 
-                        Saat ini kita sedang melakukan Social Work loh!
-						Social Work ini terbagi menjadi 11 kelompok dengan mengangkat isu sosial yang berhubungan kemanusiaan☺️.<br>
-						Semoga Social Work yang dilakukan ini dapat berdampak luas bagi masyarakat!<br><br>
-						Semangat, Cangs!
-                    </p>
-                    <!-- <div class="button">
-					<a href="https://bit.ly/OpenRecruitmentGenXV" target="_blank"><button id="register-btn">Link Pendaftaran</button></a>
                     </div> -->
+                    <p class="pendaftaran-topic">Webinar dan Campaign</p>
+                    <p class="desc">Hai Cangs, saat ini Rencang sedang membuka pendaftaran untuk webinar dan campaign Caritas loh!<br><br>
+                        Caritas adalah singkatan dari Cahaya Solidaritas. Dengan adanya Caritas kami berharap seseorang dapat menjadi seorang senior 
+                        yang bertanggung jawab dan peduli terhadap seniornya. Adapun rangkaian CARITAS terdiri dari webinar yang akan dilaksanakan 
+                        pada tanggal 26 Februari 2022 kemudian akan dilanjutkan dengan pelaksanaan campaign mulai 27 Februari sampai 1 Maret 2022. 
+                        Semoga webinar dan campaign yang dilakukan ini dapat berdampak luas bagi masyarakat!<br><br>
+                        
+						Semangat dan stay safe, Cangs!<br>
+                        <b>- Light The Way for Tomorrow -</b>
+                    </p>
+                    <div class="button">
+					<a href="https://bit.ly/PendaftaranSeminarCaritas" target="_blank"><button id="register-btn">Daftar</button></a>
+                    </div>
                 </div>
                 <div>
 
